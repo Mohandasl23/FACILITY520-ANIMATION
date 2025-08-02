@@ -187,3 +187,106 @@ section {
   filter: invert(1);
 }
 
+/* ========== RESPONSIVIDADE ========== */
+
+/* Telas até 1024px (tablets) */
+@media (max-width: 1024px) {
+  .header {
+    padding: 15px;
+  }
+
+  .logo {
+    max-height: 50px;
+  }
+
+  section {
+    padding: 30px 15px;
+  }
+
+  .descricao-slide {
+    font-size: 20px;
+    padding: 10px;
+  }
+
+  .slide img {
+    height: 350px;
+  }
+}
+
+/* Telas até 768px (celulares grandes) */
+@media (max-width: 768px) {
+  .header {
+    text-align: center;
+  }
+
+  .logo {
+    max-height: 45px;
+  }
+
+  .descricao-slide {
+    font-size: 18px;
+  }
+
+  .slide img {
+    height: 280px;
+  }
+
+  .prev,
+  .next {
+    font-size: 20px;
+    padding: 8px;
+  }
+
+  .whatsapp {
+    font-size: 20px;
+    padding: 10px 12px;
+    bottom: 20px;
+    right: 20px;
+  }
+
+  .link-whatsapp img {
+    height: 50px;
+    bottom: 15px;
+    right: 15px;
+  }
+
+  .redes-sociais img {
+    width: 20px;
+    height: 20px;
+  }
+}
+
+/* Telas até 480px (celulares pequenos) */
+@media (max-width: 480px) {
+  .descricao-slide {
+    font-size: 16px;
+    padding: 8px;
+  }
+
+  .slide img {
+    height: 200px;
+  }
+
+  section {
+    padding: 20px 10px;
+  }
+
+  .carousel {
+    border-radius: 6px;
+  }
+
+  .whatsapp {
+    font-size: 18px;
+    padding: 8px 10px;
+  }
+
+  .link-whatsapp img {
+    height: 45px;
+  }
+
+  .footer {
+    font-size: 14px;
+  }
+}
+
+
