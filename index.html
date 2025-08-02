@@ -5,13 +5,16 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <meta property="og:title" content="Facility520 - Conectando Condomínios" />
 <meta property="og:description" content="Conectando Fornecedores aos Condomínios" />
-<meta property="og:image" content="facility-520-animation-42so-git-main-mohandasl23s-projects.vercel.app" />
+<meta property="og:image" content="https://facility-520-animation-42so.vercel.app/img/facility_slide_1.png" />
 <meta property="og:url" content="https://facility-520-animation-42so.vercel.app/" />
 <meta property="og:type" content="website" />
-
-
-  <title>Facility520 - Conectando Fornecedores aos Condomínios</title>
-  
+<link rel="icon" href="img/icon-192.png">
+<link rel="apple-touch-icon" href="img/icon-512.png">
+<meta name="mobile-web-app-capable" content="yes">
+<meta name="apple-mobile-web-app-capable" content="yes">
+<link rel="manifest" href="manifest.json">
+<meta name="theme-color" content="#333333">
+  <title>Facility520 - Conectando Fornecedores aos Condomínios</title>  
   <link rel="stylesheet" href="style.css">
 </head>
 <body>
@@ -71,8 +74,10 @@
     <!-- Fim do carrossel -->
 
      <!-- Botão WhatsApp -->
-  <a href="https://api.whatsapp.com/send?phone=5511945457167&text=Ol%C3%A1,%20quero%20ajuda%20dos%20irm%C3%A3os%20Marios." class="link-whatsapp">
-        <img src="./img/whatsapp.png" alt="link para o whatsApp">
+  <a href="https://api.whatsapp.com/send?phone=5511945457167&text=Olá,%20quero%20ajuda%20dos%20irmãos%20Marios." class="link-whatsapp">
+  <img src="./img/whatsapp.png" alt="link para o WhatsApp">
+</a>
+
      <!-- Fim Botão WhatsApp -->
 
 
@@ -97,5 +102,13 @@
   </footer>
 
   <script src="script.js"></script>
+  <script>
+  if ("serviceWorker" in navigator) {
+    navigator.serviceWorker.register("service-worker.js")
+      .then(() => console.log("Service Worker registrado com sucesso."))
+      .catch(error => console.log("Erro ao registrar o SW:", error));
+  }
+</script>
+
 </body>
 </html>
